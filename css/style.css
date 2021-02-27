@@ -1,79 +1,96 @@
 
 .logo {
-    color: #212121;
-    font-family: Raleway;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-align: left;
+  color: #212121;
+  font-family: Raleway;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  text-align: left;
 }
+
 .down {
-    color: #FFFFFF;
+  color: #FFFFFF;
 }
-.Web-seme {
-    color: #2196F3;
+
+.web-seme {
+  color: #2196F3;
 }
+
 li{
-    list-style-type: none;
+  list-style-type: none;
 }
+
 ul{
-    margin: 0;
+  margin: 0;
 }
+
 h1{
-    margin: 0;
-    margin-bottom: 30px;
+  margin: 0;
+  margin-bottom: 30px;
 }
+
 h2{
-    margin: 0;
+  margin: 0;
 }
+
 h3{
-    margin: 0;
+  margin: 0;
 }
+
 .header-nav,
 .nav-links,
 .contact-links{
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
+
 header{
-    border-bottom: 1px solid #ECECEC;
-    padding: 24px 0 25px;
+  border-bottom: 1px solid #ECECEC;
+  padding: 24px 0 25px;
 }
+
 .header-nav>a{
-    margin-right: 93px;
+  margin-right: 93px;
 }
+
 .nav-links{
-    padding: 0;
+  padding: 0;
 }
 /* .header-nav{ 
     justify-content:space-between;
 }*/
 .nav-links a{
-    color: #212121;
-    font-family: Roboto;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.02em;
+  color: #212121;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
 }
+
 .nav-links li:not(:first-child){
-    margin-left: 50px;
+  margin-left: 50px;
 }
+
 .nav-links{
-    margin: 0;
+  margin: 0;
 }
+
 .nav-links a:hover {
-    color: #2196F3;
+  color: #2196F3;
 }
+
 .nav-links a:focus {
-    color: #2196F3;
+  color: #2196F3;
 }
+
 a {
     text-decoration: none;
 }
+
 .contact-links{
     padding: 0;
     margin-left: auto;
@@ -159,11 +176,13 @@ h1{
     width: 136px;
     height: 30px;
 }
+
 .advantages-section{
-    padding: 94px 30px;
+  padding: 94px 0;
 }
+
 .container .advantages{
-    display: flex;
+  display: flex;
 }
 .advantages{ 
    padding: 0;
@@ -326,16 +345,20 @@ margin-right: 30px;
 .portfolio-section{
     padding: 94px 0;
 }
+
 .container .button-list{
     justify-content: center; 
 }
+
 .button-list{
-    display: flex;
-    margin-bottom: 50px;
+  display: flex;
+  margin-bottom: 50px;
 }
- .button-list li{ 
-    margin-right: 8px;
+
+.button-list li{ 
+  margin-right: 8px;
 }
+
 button{
     background-color: #F5F4FA;
     color: #212121;
