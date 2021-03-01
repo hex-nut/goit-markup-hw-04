@@ -213,6 +213,11 @@ h1{
     background-color: #F5F4FA;
 }
 
+.contact-icon{
+    width: 70px;
+    height: 70px;
+}
+
 .advantages h3{
   color: #212121;
   font-family: Roboto;
